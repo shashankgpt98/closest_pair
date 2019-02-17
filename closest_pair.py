@@ -1,7 +1,7 @@
 import math
 
 def solution(a):
-    #sorting function
+    #sorting 
     ax = sorted(a,key=lambda x:x[0])
     ay = sorted(a,key=lambda x:x[1])
     p1,p2,mi = closest_pair(ax,ay)
